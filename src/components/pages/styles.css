@@ -1,0 +1,174 @@
+
+  div {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  form {
+    margin: 10px 0px;
+  }
+ 
+  input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="file"],
+input[type="email"],
+input[type="tel"],
+select 
+  {
+    padding: 8px;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    /* box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.25); */
+    border-radius: 4px;
+    width: 250px;
+    font-size: 15px;
+    background: white;
+    color: black;
+    box-shadow: 3px 3px 5px 3px rgb(0 0 0 / 25%);
+  }
+  
+  input::placeholder,
+  select::placeholder {
+    font-size: 15px;
+    color: gray;
+    padding-left:5px ;
+  }
+  .input-group {
+    display: block;
+    padding: 5px 0px;
+  }
+
+  .alert_history{
+    width: 190px;
+    height: 37px;
+    border-radius: 20px;
+    background-color: #ff747463;
+    float: right;
+    margin-right: 15%;
+    position: relative;
+    text-align: center;
+  }
+
+  .main_header{
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .circle {
+    width: 0px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: black;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: max-content;
+    width: 100%;
+    /* color: white; */
+    margin: 10px 0px;
+  }
+  th,
+  td {
+    padding: 5px 0px;
+    text-align: center;
+    font-family: Roboto-Regular;
+  }
+  th {
+    font-size: 1.2vw;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  td {
+    font-size: 1.1vw;
+  }
+  tr:nth-child(even) {
+    background-color: lightgray;
+  }
+  tr th {
+    background-color: #003B5E;
+  }
+  .table-border-bottom tr {
+    border-bottom: 1px solid black;
+  }
+  .underline{
+    width: 75px;
+    height: 5px;
+    margin-left: 5px;
+    background-color: #003B5E;
+    border-radius: 10px;
+  }
+
+  .cards{
+    display: flex;
+  }
+
+  .card_text{
+    margin-top: 5px;
+    width: 250px;
+    margin-left: 30px;
+ 
+    
+  }
+  .config_menu{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 225px;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: capitalize;
+    
+  }
+
+  .config_card{
+    background-color: rgba(0, 160, 255, 10%);
+    margin-top: 7px;
+    border-radius: 8px;
+    /* padding: 2% 10%; */
+    width: 480px;
+    /* padding: 10px; */
+    padding-left: 32px;
+    padding-top: 10px;
+    height: 360px;
+  }
+
+  .input-group {
+    display: block;
+    padding: 5px 0px;
+  }
+
+  .label {
+    font-size: 16px;
+    float: left;
+    width: 150px;
+    padding: 7px;
+  }
+
+  .button_cont{
+    margin-top: 8px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 12px 2px 2px 14px;
+    width: 255px;
+    height: 23px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    /* background: rgba(0, 160, 255, 0.22) */
+  }
+
+  .sub_parent{
+    width: 212px;
+    overflow: hidden;
+  }
+
+  .upload_card{
+    background: rgba(0, 160, 255, 0.1);
+    width: 465px;
+    height: 265px;
+    padding: 26px;
+    margin-top: 35px;
+    margin-left: 30px;
+    border-radius: 8px;
+  }

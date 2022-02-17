@@ -1,0 +1,42 @@
+.sidebar{
+    width: 150px;
+    background: #003B5E;
+    display: inline-block;
+    min-height: 100%;
+    position: fixed;
+    padding: 30px;
+}
+
+.sidebar_icons{
+    margin-left: 15px;
+    margin-top: 35px;
+    display: flex;
+}
+
+.sidebar_text{
+    color: white;
+    /* padding: 5px; */
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.sidebarimage i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: white;
+    
+}
+
+.sidebar_icons:hover .sidebarimage {
+    /* baccolor: blue; */
+}
+.sidebar_icons:hover * {
+    color: blue;
+}
+.sidebar_text:hover *{
+    color: blue;
+}
+
+.sidebar_text i:hover{
+    color: blue;
+}
